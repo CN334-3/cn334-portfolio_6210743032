@@ -97,7 +97,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     @foreach($posts as $post)
         <article class="mb-2">
-            <a href="/posts/{{ $post->id }}/edit" class="text-xl w3-content w3-justify w3-text-grey w3-padding-16">{{ $post->title }}</a>
+            <a href="/posts/{{ $post->id }}/edit" class="w3-content w3-justify w3-text-grey w3-padding-16">{{ $post->title }}</a>
             <p class="w3-content w3-justify w3-text-grey">{{ $post->content }}</p>
 
             <hr class="mt-2">
